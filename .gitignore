@@ -1,0 +1,97 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging and test artifacts
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Microsoft Office temporary/lock files
+~$*
+*.asd
+*.wbk
+
+# Documents generated locally
+*.doc
+*.docx
+*.pdf
+
+# ML datasets - usually too large for GitHub
+dataset/
+data/
+datasets/
+
+# Trained models and checkpoints
+models/
+checkpoints/
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.pickle
+*.joblib
+
+# Generated experiment outputs
+results/
+outputs/
+pipeline_rebuilt_outputs/
+runs/
+wandb/
+mlruns/
+
+# Generated media from experiments
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tif
+*.tiff
+
+# Installers and local binaries
+*.exe
+*.msi

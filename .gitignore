@@ -55,6 +55,7 @@ temp/
 *.doc
 *.docx
 *.pdf
+*.md
 
 # ML datasets - usually too large for GitHub
 dataset/
